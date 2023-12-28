@@ -11,6 +11,41 @@
 		78B617AE2B2CD44A00AA1022 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B617AD2B2CD44A00AA1022 /* ContentView.swift */; };
 		78B617B02B2CD44C00AA1022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78B617AF2B2CD44C00AA1022 /* Assets.xcassets */; };
 		78B617B42B2CD44C00AA1022 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78B617B32B2CD44C00AA1022 /* Preview Assets.xcassets */; };
+		78B617C42B2CD5E000AA1022 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B617C32B2CD5E000AA1022 /* LoadingView.swift */; };
+		78B617C62B2CD5EB00AA1022 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78B617C52B2CD5EB00AA1022 /* Launch Screen.storyboard */; };
+		78B617CD2B2CDD4600AA1022 /* GamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B617CC2B2CDD4600AA1022 /* GamesView.swift */; };
+		78B617CF2B2D9FB300AA1022 /* GamesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B617CE2B2D9FB300AA1022 /* GamesViewModel.swift */; };
+		78B617D22B2D9FC200AA1022 /* GamesModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78B617D02B2D9FC200AA1022 /* GamesModel.xcdatamodeld */; };
+		78B617D42B2D9FDF00AA1022 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B617D32B2D9FDF00AA1022 /* Array.swift */; };
+		78B617D62B2D9FFA00AA1022 /* ConvertDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B617D52B2D9FFA00AA1022 /* ConvertDate.swift */; };
+		78B617D82B2DA00F00AA1022 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B617D72B2DA00F00AA1022 /* CoreDataStack.swift */; };
+		78B617DA2B2DA02100AA1022 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B617D92B2DA02100AA1022 /* TabBar.swift */; };
+		78B617E02B2DA32400AA1022 /* Amplitude in Frameworks */ = {isa = PBXBuildFile; productRef = 78B617DF2B2DA32400AA1022 /* Amplitude */; };
+		78B617E62B2DA33D00AA1022 /* ApphudSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 78B617E52B2DA33D00AA1022 /* ApphudSDK */; };
+		78B617E92B2DAE0900AA1022 /* AddGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B617E82B2DAE0900AA1022 /* AddGame.swift */; };
+		78B617EC2B2DBCCB00AA1022 /* GameDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B617EB2B2DBCCB00AA1022 /* GameDetail.swift */; };
+		78B617EE2B2DBD0500AA1022 /* StrategiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B617ED2B2DBD0500AA1022 /* StrategiesView.swift */; };
+		78B617F02B2DBD9600AA1022 /* StrategiesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B617EF2B2DBD9600AA1022 /* StrategiesViewModel.swift */; };
+		78B617F32B2DBE2400AA1022 /* StrategiesModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78B617F12B2DBE2400AA1022 /* StrategiesModel.xcdatamodeld */; };
+		78B617F62B2DC22F00AA1022 /* AddStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B617F52B2DC22F00AA1022 /* AddStrategy.swift */; };
+		78B617F82B2DE2B600AA1022 /* MatchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B617F72B2DE2B600AA1022 /* MatchesView.swift */; };
+		78B617FA2B2DE2BE00AA1022 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B617F92B2DE2BE00AA1022 /* StatisticsView.swift */; };
+		78B617FC2B2DE2C600AA1022 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B617FB2B2DE2C600AA1022 /* SettingsView.swift */; };
+		78B617FF2B2DF07200AA1022 /* SDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B617FE2B2DF07200AA1022 /* SDetailView.swift */; };
+		78B618012B2E1C0100AA1022 /* MatchesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B618002B2E1C0100AA1022 /* MatchesViewModel.swift */; };
+		78B618042B2E1DF200AA1022 /* MatchesModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78B618022B2E1DF200AA1022 /* MatchesModel.xcdatamodeld */; };
+		78B618072B2E1F9A00AA1022 /* AddMatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B618062B2E1F9A00AA1022 /* AddMatchView.swift */; };
+		78B618092B3185AA00AA1022 /* R1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B618082B3185AA00AA1022 /* R1.swift */; };
+		78B6180B2B3185B300AA1022 /* R2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B6180A2B3185B300AA1022 /* R2.swift */; };
+		78B6180D2B3185B900AA1022 /* R3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B6180C2B3185B900AA1022 /* R3.swift */; };
+		78B6180F2B3185CF00AA1022 /* U1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B6180E2B3185CF00AA1022 /* U1.swift */; };
+		78B618112B3185D900AA1022 /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B618102B3185D900AA1022 /* Reviews.swift */; };
+		78B618132B3185E100AA1022 /* Not.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B618122B3185E100AA1022 /* Not.swift */; };
+		F9C153222B3DC9CC00B113CD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9C153212B3DC9CC00B113CD /* GoogleService-Info.plist */; };
+		F9C153272B3DC9D900B113CD /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = F9C153262B3DC9D900B113CD /* OneSignalFramework */; };
+		F9C1535E2B3DC9F800B113CD /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F9C1535D2B3DC9F800B113CD /* FirebaseRemoteConfigSwift */; };
+		F9C153642B3DCC7700B113CD /* serbia.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C153632B3DCC7700B113CD /* serbia.swift */; };
+		F9C153662B3DCC7F00B113CD /* werbia.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C153652B3DCC7F00B113CD /* werbia.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +55,37 @@
 		78B617AF2B2CD44C00AA1022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78B617B12B2CD44C00AA1022 /* App285.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = App285.entitlements; sourceTree = "<group>"; };
 		78B617B32B2CD44C00AA1022 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		78B617C32B2CD5E000AA1022 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		78B617C52B2CD5EB00AA1022 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		78B617CC2B2CDD4600AA1022 /* GamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesView.swift; sourceTree = "<group>"; };
+		78B617CE2B2D9FB300AA1022 /* GamesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewModel.swift; sourceTree = "<group>"; };
+		78B617D12B2D9FC200AA1022 /* GamesModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GamesModel.xcdatamodel; sourceTree = "<group>"; };
+		78B617D32B2D9FDF00AA1022 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		78B617D52B2D9FFA00AA1022 /* ConvertDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertDate.swift; sourceTree = "<group>"; };
+		78B617D72B2DA00F00AA1022 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		78B617D92B2DA02100AA1022 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		78B617E82B2DAE0900AA1022 /* AddGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGame.swift; sourceTree = "<group>"; };
+		78B617EB2B2DBCCB00AA1022 /* GameDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetail.swift; sourceTree = "<group>"; };
+		78B617ED2B2DBD0500AA1022 /* StrategiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategiesView.swift; sourceTree = "<group>"; };
+		78B617EF2B2DBD9600AA1022 /* StrategiesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategiesViewModel.swift; sourceTree = "<group>"; };
+		78B617F22B2DBE2400AA1022 /* StrategiesModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StrategiesModel.xcdatamodel; sourceTree = "<group>"; };
+		78B617F52B2DC22F00AA1022 /* AddStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStrategy.swift; sourceTree = "<group>"; };
+		78B617F72B2DE2B600AA1022 /* MatchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesView.swift; sourceTree = "<group>"; };
+		78B617F92B2DE2BE00AA1022 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		78B617FB2B2DE2C600AA1022 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		78B617FE2B2DF07200AA1022 /* SDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDetailView.swift; sourceTree = "<group>"; };
+		78B618002B2E1C0100AA1022 /* MatchesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesViewModel.swift; sourceTree = "<group>"; };
+		78B618032B2E1DF200AA1022 /* MatchesModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MatchesModel.xcdatamodel; sourceTree = "<group>"; };
+		78B618062B2E1F9A00AA1022 /* AddMatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMatchView.swift; sourceTree = "<group>"; };
+		78B618082B3185AA00AA1022 /* R1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R1.swift; sourceTree = "<group>"; };
+		78B6180A2B3185B300AA1022 /* R2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R2.swift; sourceTree = "<group>"; };
+		78B6180C2B3185B900AA1022 /* R3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3.swift; sourceTree = "<group>"; };
+		78B6180E2B3185CF00AA1022 /* U1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U1.swift; sourceTree = "<group>"; };
+		78B618102B3185D900AA1022 /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
+		78B618122B3185E100AA1022 /* Not.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Not.swift; sourceTree = "<group>"; };
+		F9C153212B3DC9CC00B113CD /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F9C153632B3DCC7700B113CD /* serbia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = serbia.swift; sourceTree = "<group>"; };
+		F9C153652B3DCC7F00B113CD /* werbia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = werbia.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +93,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9C153272B3DC9D900B113CD /* OneSignalFramework in Frameworks */,
+				F9C1535E2B3DC9F800B113CD /* FirebaseRemoteConfigSwift in Frameworks */,
+				78B617E62B2DA33D00AA1022 /* ApphudSDK in Frameworks */,
+				78B617E02B2DA32400AA1022 /* Amplitude in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +122,10 @@
 		78B617AA2B2CD44A00AA1022 /* App285 */ = {
 			isa = PBXGroup;
 			children = (
+				78B617BA2B2CD56900AA1022 /* Project */,
 				78B617AB2B2CD44A00AA1022 /* App285App.swift */,
 				78B617AD2B2CD44A00AA1022 /* ContentView.swift */,
+				F9C153212B3DC9CC00B113CD /* GoogleService-Info.plist */,
 				78B617AF2B2CD44C00AA1022 /* Assets.xcassets */,
 				78B617B12B2CD44C00AA1022 /* App285.entitlements */,
 				78B617B22B2CD44C00AA1022 /* Preview Content */,
@@ -67,6 +139,187 @@
 				78B617B32B2CD44C00AA1022 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		78B617BA2B2CD56900AA1022 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				78B617BE2B2CD59A00AA1022 /* Views */,
+				78B617BD2B2CD59200AA1022 /* TabBar */,
+				78B617BC2B2CD58400AA1022 /* Extensions */,
+				78B617BB2B2CD57400AA1022 /* StartScreens */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		78B617BB2B2CD57400AA1022 /* StartScreens */ = {
+			isa = PBXGroup;
+			children = (
+				78B617C22B2CD5C200AA1022 /* LaunchScreen */,
+				78B617C12B2CD5B800AA1022 /* LoadingView */,
+				78B617C02B2CD5B200AA1022 /* Rew */,
+				78B617BF2B2CD5AD00AA1022 /* User */,
+			);
+			path = StartScreens;
+			sourceTree = "<group>";
+		};
+		78B617BC2B2CD58400AA1022 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				78B617D32B2D9FDF00AA1022 /* Array.swift */,
+				78B617D52B2D9FFA00AA1022 /* ConvertDate.swift */,
+				78B617D72B2DA00F00AA1022 /* CoreDataStack.swift */,
+				F9C153632B3DCC7700B113CD /* serbia.swift */,
+				F9C153652B3DCC7F00B113CD /* werbia.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		78B617BD2B2CD59200AA1022 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				78B617D92B2DA02100AA1022 /* TabBar.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		78B617BE2B2CD59A00AA1022 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				78B617CB2B2CDBCA00AA1022 /* Settings */,
+				78B617CA2B2CDBBD00AA1022 /* Statistics */,
+				78B617C92B2CDBA800AA1022 /* Matches */,
+				78B617C82B2CDB9B00AA1022 /* Strategies */,
+				78B617C72B2CDB8400AA1022 /* Games */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		78B617BF2B2CD5AD00AA1022 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				78B6180E2B3185CF00AA1022 /* U1.swift */,
+				78B618102B3185D900AA1022 /* Reviews.swift */,
+				78B618122B3185E100AA1022 /* Not.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		78B617C02B2CD5B200AA1022 /* Rew */ = {
+			isa = PBXGroup;
+			children = (
+				78B618082B3185AA00AA1022 /* R1.swift */,
+				78B6180A2B3185B300AA1022 /* R2.swift */,
+				78B6180C2B3185B900AA1022 /* R3.swift */,
+			);
+			path = Rew;
+			sourceTree = "<group>";
+		};
+		78B617C12B2CD5B800AA1022 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				78B617C32B2CD5E000AA1022 /* LoadingView.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		78B617C22B2CD5C200AA1022 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				78B617C52B2CD5EB00AA1022 /* Launch Screen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		78B617C72B2CDB8400AA1022 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				78B617EA2B2DBCBD00AA1022 /* GameDetail */,
+				78B617E72B2DADF800AA1022 /* AddGame */,
+				78B617CC2B2CDD4600AA1022 /* GamesView.swift */,
+				78B617CE2B2D9FB300AA1022 /* GamesViewModel.swift */,
+				78B617D02B2D9FC200AA1022 /* GamesModel.xcdatamodeld */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		78B617C82B2CDB9B00AA1022 /* Strategies */ = {
+			isa = PBXGroup;
+			children = (
+				78B617FD2B2DF05800AA1022 /* StrategiesDetail */,
+				78B617F42B2DC21500AA1022 /* AddStrategy */,
+				78B617ED2B2DBD0500AA1022 /* StrategiesView.swift */,
+				78B617EF2B2DBD9600AA1022 /* StrategiesViewModel.swift */,
+				78B617F12B2DBE2400AA1022 /* StrategiesModel.xcdatamodeld */,
+			);
+			path = Strategies;
+			sourceTree = "<group>";
+		};
+		78B617C92B2CDBA800AA1022 /* Matches */ = {
+			isa = PBXGroup;
+			children = (
+				78B618052B2E1F8F00AA1022 /* AddMatch */,
+				78B617F72B2DE2B600AA1022 /* MatchesView.swift */,
+				78B618002B2E1C0100AA1022 /* MatchesViewModel.swift */,
+				78B618022B2E1DF200AA1022 /* MatchesModel.xcdatamodeld */,
+			);
+			path = Matches;
+			sourceTree = "<group>";
+		};
+		78B617CA2B2CDBBD00AA1022 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				78B617F92B2DE2BE00AA1022 /* StatisticsView.swift */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		78B617CB2B2CDBCA00AA1022 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				78B617FB2B2DE2C600AA1022 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		78B617E72B2DADF800AA1022 /* AddGame */ = {
+			isa = PBXGroup;
+			children = (
+				78B617E82B2DAE0900AA1022 /* AddGame.swift */,
+			);
+			path = AddGame;
+			sourceTree = "<group>";
+		};
+		78B617EA2B2DBCBD00AA1022 /* GameDetail */ = {
+			isa = PBXGroup;
+			children = (
+				78B617EB2B2DBCCB00AA1022 /* GameDetail.swift */,
+			);
+			path = GameDetail;
+			sourceTree = "<group>";
+		};
+		78B617F42B2DC21500AA1022 /* AddStrategy */ = {
+			isa = PBXGroup;
+			children = (
+				78B617F52B2DC22F00AA1022 /* AddStrategy.swift */,
+			);
+			path = AddStrategy;
+			sourceTree = "<group>";
+		};
+		78B617FD2B2DF05800AA1022 /* StrategiesDetail */ = {
+			isa = PBXGroup;
+			children = (
+				78B617FE2B2DF07200AA1022 /* SDetailView.swift */,
+			);
+			path = StrategiesDetail;
+			sourceTree = "<group>";
+		};
+		78B618052B2E1F8F00AA1022 /* AddMatch */ = {
+			isa = PBXGroup;
+			children = (
+				78B618062B2E1F9A00AA1022 /* AddMatchView.swift */,
+			);
+			path = AddMatch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +338,12 @@
 			dependencies = (
 			);
 			name = App285;
+			packageProductDependencies = (
+				78B617DF2B2DA32400AA1022 /* Amplitude */,
+				78B617E52B2DA33D00AA1022 /* ApphudSDK */,
+				F9C153262B3DC9D900B113CD /* OneSignalFramework */,
+				F9C1535D2B3DC9F800B113CD /* FirebaseRemoteConfigSwift */,
+			);
 			productName = App285;
 			productReference = 78B617A82B2CD44A00AA1022 /* App285.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +372,12 @@
 				Base,
 			);
 			mainGroup = 78B6179F2B2CD44A00AA1022;
+			packageReferences = (
+				78B617DE2B2DA32400AA1022 /* XCRemoteSwiftPackageReference "Amplitude-iOS" */,
+				78B617E42B2DA33D00AA1022 /* XCRemoteSwiftPackageReference "ApphudSDK" */,
+				F9C153232B3DC9D900B113CD /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */,
+				F9C1532C2B3DC9F800B113CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 78B617A92B2CD44A00AA1022 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +392,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78B617C62B2CD5EB00AA1022 /* Launch Screen.storyboard in Resources */,
+				F9C153222B3DC9CC00B113CD /* GoogleService-Info.plist in Resources */,
 				78B617B42B2CD44C00AA1022 /* Preview Assets.xcassets in Resources */,
 				78B617B02B2CD44C00AA1022 /* Assets.xcassets in Resources */,
 			);
@@ -141,6 +408,35 @@
 			files = (
 				78B617AE2B2CD44A00AA1022 /* ContentView.swift in Sources */,
 				78B617AC2B2CD44A00AA1022 /* App285App.swift in Sources */,
+				78B617D42B2D9FDF00AA1022 /* Array.swift in Sources */,
+				78B617D82B2DA00F00AA1022 /* CoreDataStack.swift in Sources */,
+				78B618132B3185E100AA1022 /* Not.swift in Sources */,
+				78B617F32B2DBE2400AA1022 /* StrategiesModel.xcdatamodeld in Sources */,
+				78B617EC2B2DBCCB00AA1022 /* GameDetail.swift in Sources */,
+				78B617F02B2DBD9600AA1022 /* StrategiesViewModel.swift in Sources */,
+				78B617D62B2D9FFA00AA1022 /* ConvertDate.swift in Sources */,
+				78B6180B2B3185B300AA1022 /* R2.swift in Sources */,
+				78B617F62B2DC22F00AA1022 /* AddStrategy.swift in Sources */,
+				78B617CD2B2CDD4600AA1022 /* GamesView.swift in Sources */,
+				78B617D22B2D9FC200AA1022 /* GamesModel.xcdatamodeld in Sources */,
+				78B617CF2B2D9FB300AA1022 /* GamesViewModel.swift in Sources */,
+				78B618112B3185D900AA1022 /* Reviews.swift in Sources */,
+				F9C153642B3DCC7700B113CD /* serbia.swift in Sources */,
+				78B618072B2E1F9A00AA1022 /* AddMatchView.swift in Sources */,
+				78B617C42B2CD5E000AA1022 /* LoadingView.swift in Sources */,
+				78B618092B3185AA00AA1022 /* R1.swift in Sources */,
+				78B617FA2B2DE2BE00AA1022 /* StatisticsView.swift in Sources */,
+				78B617F82B2DE2B600AA1022 /* MatchesView.swift in Sources */,
+				78B617E92B2DAE0900AA1022 /* AddGame.swift in Sources */,
+				F9C153662B3DCC7F00B113CD /* werbia.swift in Sources */,
+				78B617EE2B2DBD0500AA1022 /* StrategiesView.swift in Sources */,
+				78B6180F2B3185CF00AA1022 /* U1.swift in Sources */,
+				78B617FF2B2DF07200AA1022 /* SDetailView.swift in Sources */,
+				78B618012B2E1C0100AA1022 /* MatchesViewModel.swift in Sources */,
+				78B6180D2B3185B900AA1022 /* R3.swift in Sources */,
+				78B618042B2E1DF200AA1022 /* MatchesModel.xcdatamodeld in Sources */,
+				78B617DA2B2DA02100AA1022 /* TabBar.swift in Sources */,
+				78B617FC2B2DE2C600AA1022 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,7 +484,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -248,6 +544,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -272,17 +569,19 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App285/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = 1win;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
@@ -290,10 +589,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App285;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,17 +608,19 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App285/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = 1win;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
@@ -326,10 +628,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App285;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -355,6 +658,97 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		78B617DE2B2DA32400AA1022 /* XCRemoteSwiftPackageReference "Amplitude-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/amplitude/Amplitude-iOS.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		78B617E42B2DA33D00AA1022 /* XCRemoteSwiftPackageReference "ApphudSDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apphud/ApphudSDK.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.0;
+			};
+		};
+		F9C153232B3DC9D900B113CD /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-iOS-SDK.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.5;
+			};
+		};
+		F9C1532C2B3DC9F800B113CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.19.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		78B617DF2B2DA32400AA1022 /* Amplitude */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78B617DE2B2DA32400AA1022 /* XCRemoteSwiftPackageReference "Amplitude-iOS" */;
+			productName = Amplitude;
+		};
+		78B617E52B2DA33D00AA1022 /* ApphudSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78B617E42B2DA33D00AA1022 /* XCRemoteSwiftPackageReference "ApphudSDK" */;
+			productName = ApphudSDK;
+		};
+		F9C153262B3DC9D900B113CD /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9C153232B3DC9D900B113CD /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalFramework;
+		};
+		F9C1535D2B3DC9F800B113CD /* FirebaseRemoteConfigSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9C1532C2B3DC9F800B113CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfigSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		78B617D02B2D9FC200AA1022 /* GamesModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				78B617D12B2D9FC200AA1022 /* GamesModel.xcdatamodel */,
+			);
+			currentVersion = 78B617D12B2D9FC200AA1022 /* GamesModel.xcdatamodel */;
+			path = GamesModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		78B617F12B2DBE2400AA1022 /* StrategiesModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				78B617F22B2DBE2400AA1022 /* StrategiesModel.xcdatamodel */,
+			);
+			currentVersion = 78B617F22B2DBE2400AA1022 /* StrategiesModel.xcdatamodel */;
+			path = StrategiesModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		78B618022B2E1DF200AA1022 /* MatchesModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				78B618032B2E1DF200AA1022 /* MatchesModel.xcdatamodel */,
+			);
+			currentVersion = 78B618032B2E1DF200AA1022 /* MatchesModel.xcdatamodel */;
+			path = MatchesModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 78B617A02B2CD44A00AA1022 /* Project object */;
 }
